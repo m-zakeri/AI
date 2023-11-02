@@ -1,7 +1,7 @@
 site_name: Artificial Intelligence
 site_url: https://m-zakeri.github.io
 repo_url: https://github.com/m-zakeri/AI
-site_description: Compiler (dragon) course materials and codes
+site_description: Artificial intelligence course materials and codes
 site_author: Morteza Zakeri, Ph.D.
 copyright: © 2022-2023
 
@@ -44,4 +44,4 @@ nav:
     - Home: index.md
     - Announcements: announcements.md
     - Recourses: resources.md
-    - Issue Tracker: 'https://github.com/m-zakeri/DatabaseDesign/issues'
+    - Issue Tracker: 'https://github.com/m-zakeri/AI/issues'

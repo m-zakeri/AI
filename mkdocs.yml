@@ -1,0 +1,47 @@
+site_name: Artificial Intelligence
+site_url: https://m-zakeri.github.io
+repo_url: https://github.com/m-zakeri/AI
+site_description: Artificial intelligence course materials and codes
+site_author: Morteza Zakeri, Ph.D.
+copyright: © 2022-2023
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Dark mode
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Light mode
+  icon:
+    logo: material/library
+  features:
+    - header.autohide
+  extra:
+    social:
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/mortazazakeri/
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+            - import sys
+            - import os
+          selection:
+            members: True
+
+nav:
+    - Home: index.md
+    - Announcements: announcements.md
+    - Recourses: resources.md
+    - Issue Tracker: 'https://github.com/m-zakeri/AI/issues'
